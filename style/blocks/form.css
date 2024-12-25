@@ -1,0 +1,206 @@
+
+.form-section {
+    background-image: linear-gradient(#2F324BD9, #2F324BD9), url(../../img/questions-bg-l.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 70px;
+}
+.form-section>.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-section__block2 {
+    padding-right: 26px;
+}
+.form-section__title {
+    font-family: Roboto;
+    font-size: 35px;
+    line-height: 41.02px;
+    text-align: center;
+    margin-bottom: 19px;
+    color: #fff;
+}
+.form-section__subtitle {
+    font-family: Roboto;
+    font-size: 22px;
+    line-height: 25.78px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.form-section__agree {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+
+}
+.form-section__agree_variant {
+    color: #4A76A8;
+
+}
+.form {
+    max-width: 423px;
+    margin-bottom: 50px;
+}
+.form__fieldset {
+    display: flex;
+    flex-direction: column;
+    row-gap: 21px;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.form__input {
+    width: 423px;
+    height: 44px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    max-width: 100%;
+    padding: 9px 25px;
+    background-color: transparent;
+    outline: none;
+}
+.form__input::placeholder {
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF80;
+    font-weight: 400;
+}
+.submit-btn {
+    border-radius: 50px;
+    background-color: #15A9CB;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23.44px;
+    text-align: center;
+    color: #fff;
+    width: 218px;
+    height: 48px;
+    margin-bottom: 50px;
+}
+.main-form {
+    width: 142px;
+    height: 26px;
+    padding: 11px 38px;
+}
+@media (max-width: 1200px) {
+    .form-section {
+        padding-bottom: 50px;
+    }
+    .form-section__block {
+        padding-left: 283px;
+        padding-right: 266px;
+        margin-bottom: 50px;
+    }
+    .form-section__title {
+        font-size: 32px;
+        line-height: 37.5px;
+        margin-bottom: 16px;
+    }
+    .form-section__subtitle {
+        font-size: 20px;
+        line-height: 23.5px;
+        margin-bottom: 0px;
+    }
+    .form-block {
+        padding-left: 321px;
+        padding-right: 324px;
+    }
+    .form {
+        max-width: 379px;
+    }
+    .form__fieldset {
+        row-gap: 20px;
+    }
+    .form__input {
+        padding: 8px 23px;
+    }
+    .form__input::placeholder {
+        font-size: 20px;
+        line-height: 23.5px;
+    }
+    .submit-btn {
+        margin-bottom: 30px;
+    }
+    .form-section__agree {
+        font-size: 17px;
+        line-height: 20px;
+    }
+}
+
+
+@media (max-width: 530px) {
+    .form-section__block {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-bottom: 35px;
+    }
+    .form-section__agree {
+        font-size: 13px;
+        line-height: 16px;
+        text-align: center;
+    }
+    .form-sec {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+} 
+
+@media (max-width: 320px) {
+    .form-section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+   
+    .form-section__block {
+        max-width: 320px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-bottom: 35px;
+    }
+    .form-section__title {
+        font-size: 20px;
+        line-height: 23px;
+        margin-bottom: 10px;
+    }
+    .form-section__subtitle {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .form-block {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .form {
+        max-width: 290px;
+        margin-bottom: 45px;
+    }
+    .form__fieldset {
+        row-gap: 15px;
+    }
+    .form__input {
+        max-width: 290px;
+        padding: 6px 18px;
+    }
+    .form__input::placeholder {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .submit-btn {
+        width: 174px;
+        height: 38px;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform:none;
+        box-shadow: 0px 2.7px 16.86px 0px #15A9CB4D;
+        margin-bottom: 30px;
+    }
+    .form-section__agree {
+        font-size: 11px;
+        line-height: 13px;
+        text-align: center;
+    }
+}

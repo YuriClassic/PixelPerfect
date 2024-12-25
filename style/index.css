@@ -1,0 +1,8 @@
+@import "normalize.css";
+@import "font.css";
+@import "style.css";
+@import "./blocks/header.css";
+@import "./blocks/welcome.css";
+@import "./blocks/advantages.css";
+@import "./blocks/form.css";
+@import "./blocks/footer.css";
